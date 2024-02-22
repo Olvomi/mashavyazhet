@@ -1,0 +1,203 @@
+body {
+    width: 1000 px;
+    margin-right: 37px; 
+    margin-left: 37px; 
+    margin-bottom: 30px;
+    color: black;
+    padding: 0 13%;
+}
+
+@font-face {
+    font-family: "Dela Gothic One"; 
+    src: url("fonts/DelaGothicOne_Regular.ttf") format('truetype')
+;
+}
+        
+@font-face {
+    font-family: "Gabriela"; 
+    src: url("fonts/Gabriela-Regular.ttf") format('truetype')
+;
+}
+
+@font-face {
+    font-family: "Proza Libre Bold"; 
+    src: url("fonts/ProzaLibre-Bold.ttf") format('truetype')
+;
+}
+
+@font-face {
+    font-family: "Proza Libre Regular"; 
+    src: url("fonts/ProzaLibre-Regular.ttf") format('truetype')
+;
+}
+
+.shapka {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: top; 
+    background-image: url("../i/banner2.png"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 20px 0; 
+    background-size: 100%;
+    width: 926px;
+    height: 100vh;
+    margin-top: -20px;
+}
+
+
+.logo {
+    max-width: 100%; 
+    margin-top: 12px;
+    height: 38px; 
+    padding-left: 1.9em;}
+
+
+
+.shapka ul {
+    display: flex;
+    flex-flow: nowrap;
+    margin: 25px;
+    padding: 0;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    align-self: top;
+    list-style-type: none;
+    font-family: 'Gabriela';
+}
+
+.shapka ul li a {
+    text-decoration: none; 
+    color: black; 
+    font-family: 'Gabriela'; 
+    justify-content: center; 
+    align-items: top;
+   
+}
+
+.change-color-link {
+    color: black;
+    font-family:'Gabriela';
+    font-size: 1.4em;
+    margin-top: 50px;
+    padding: 20px 20px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.change-color-link:hover {
+    color: #D1183D;
+}
+
+.conteiner h2 {
+    font-family:'Dela Gothic One'; 
+    font-size: 48px; 
+    line-height: 90px;
+
+
+ 
+    color: #D1183D;
+    margin-top: 4px;
+    margin-bottom: 75px;
+}
+
+
+.maintext {
+    font-family: 'Proza Libre Regular', 'Roboto', sans-serif; 
+    font-size: 24px; 
+    line-height: 28px;
+}
+
+.maintext a {
+    color: #D1183D;
+}
+
+.maintext a:hover {
+    text-decoration-thickness: .5px;
+}
+
+.zametka ul {
+    font-family: 'Proza Libre Regular', 'Roboto', sans-serif;
+    font-size: 22px; 
+    line-height: 25px;
+    color: #D1183D;
+    list-style-type: none;
+}
+
+.zametka a {
+    color: #D1183D;
+}
+
+.zametka a:hover {
+    text-decoration-thickness: .5px;
+}
+
+p {
+    margin-bottom: 1.1em;
+}
+
+.fotoblok1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.fotoblok2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.fotoblok3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.podpis{
+    font-family: 'Proza Libre', 'Roboto', sans-serif; 
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.tsena{
+    font-family: 'Proza Libre Bold', 'Roboto Bold', sans-serif; 
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.rub{
+    font-family: 'Proza Libre Bold', 'Roboto Bold', sans-serif; 
+    font-size: 30px;
+    font-weight: bold;   
+    line-height: 7px;
+    width: 0.4em;
+    border-bottom: 3px solid #000; 
+    display: inline-block;
+}
+
+.knopka	{
+    font-family: 'Proza Libre Bold', 'Roboto Bold', sans-serif; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #D1183D;
+    border: none;
+    padding: 15px 20px;
+    align: center;
+    border-radius: 17px;
+    width: 456px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.podval {
+    font-family:'Gabriela'; 
+    font-size: 1em;
+    display: flex;
+    align-items: bottom;
+    justify-content: space-between; 
+}
