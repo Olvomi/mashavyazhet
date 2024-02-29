@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -15,25 +15,33 @@
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 	<![endif]-->
-  <script src="likely/likely.js"></script>
-  <link href="likely/likely.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/proza-libre" rel="stylesheet">
 </head>
 
 <body>
-  <header class="shapka">
-    <div class="logo">
-      <a href="#"><img src="i\logo1.png" alt="Логотип"></a>
-    </div>
-    <div style="margin-right: -11px" ;>
-      <ul>
+  <header class="headermain">
+    <a href="#"><img src="i\logo.png" alt="Логотип" class="headerlogo"></a>
+    <div>
+	<p><a href="#" class="change-color-link">Вязань</a></p>
+	</div>
+	<div style="margin-left:auto; order:2;">
+    <ul>
         <li><a href="#" class="change-color-link">Магазин</a></li>
         <li><a href="#" class="change-color-link">Блог</a></li>
         <li><a href="#" class="change-color-link">О нас</a></li>
         <li><a href="#" class="change-color-link">Контакты</a></li>
-      </ul>
-    </div>
+     </ul>
+	 </div>
+	 <div class="container__text1">
+      <p class="titlecollection">Коллекция <br>вещей ручной работы</p>
+	  </div>
+	  <div class="container__text3">
+	  <p class="titlemain">Маша вяжет</p>
+	 </div>
+     <div class="container__text2">
+	 <p class="descriptioncollection">Совместный проект фабрики «Вязань» и&nbsp;популярного блогера-вязальщицы Марии&nbsp;Спицыной</p>
+	 </div>
   </header>
 
   <div class="conteiner">
@@ -51,7 +59,7 @@
         <p>Маша связала наборы вещей для мужчин и женщин по&nbsp;авторским схемам. В каждом наборе – свитеры, шарфы, шапки и перчатки. Выбирайте!</p>
       </div>
       <div class="hidden-xs col-sm-3 col-md-3 col-lg-3 zametka">
-        <ul style="margin-left: 63px;">
+        <ul>
           <li><a href="#">Блог «Маша и&nbsp;спицы» на&nbsp;Ютубе</a></li>
         </ul>
       </div>
@@ -60,7 +68,7 @@
   <div class="conteiner">
     <div class="row">
       <div class="col-xs-12 col-xs-12 col-sm-10 col-md-7 col-lg-10">
-        <h2 style="margin-top: 118px; margin-bottom: 40px;">Для женщин</h2>
+        <h2>Для женщин</h2>
       </div>
     </div>
   </div>
@@ -119,14 +127,15 @@
   <button type="button" class="knopka">Показать ещё</button>
 
   <footer class="podval">
-    <img src="i\logo.png" alt="Логотип" style="height: 38px; margin-top: 25px; aligne: left;">
+    <a href="#"><img src="i\logo.png" alt="Логотип" class="footerlogo"></a>
     <div>
-      <p style="margin-top: 43px;">ООО «Вязань», г. Рязань, ул. Ивановская, д. 7.</p>
+      <p>ООО «Вязань», г. Рязань, ул. Ивановская, д. 7.</p>
     </div>
-    <div style="margin-top: 31px; margin-left:auto; order:2;">
-      <img src="i\fb.png" alt="Логотип" style="height: 25px;">
-      <img src="i\vk.png" alt="Логотип" style="height: 25px;">
-      <img src="i\ok.png" alt="Логотип" style="height: 25px;"></div>
+    <div class="footersmm" style="margin-top: 31px; margin-left:auto; order:2;">
+      <a href="#"><img src="i\fb.png" alt="Facebook Вязань"></a>
+      <a href="#"><img src="i\vk.png" alt="VKontakte Вязань"></a>
+      <a href="#"><img src="i\ok.png" alt="Одноклассники Вязань"></a>
+	</div>
   </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
